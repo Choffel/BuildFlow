@@ -1,0 +1,7 @@
+﻿services:
+  buildflow:
+    image: buildflow
+    build:
+      context: .
+      dockerfile: BuildFlow/Dockerfile
+
